@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #ccc;
+    background-color: #333;
+}
+
+#tableContainer, #titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+} 
+
+#title {
+    font-family: 'Ubuntu Mono', sans-serif;
+    font-size: 60px;
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+}
+
+table {
+    width: 75%;
+}
+
+table, th, td {
+    border: 2px solid #111;
+    border-collapse: collapse;
+}
+
+#patientInfo {
+    margin: 25px;
+}
+
+fieldset {
+    border-radius: 10px;
+}
+
+legend {
+    background-color: rgb(41, 41, 41);
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.fieldsetBold {
+    background-color: rgb(41, 41, 41);
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    margin: 8px 0px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin: 8px 0px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+button:active {
+    background-color: rgb(36, 36, 36);
+    color: rgb(175, 175, 175);
+    border: 1px solid rgb(175, 175, 175);
+    transition: 0.2s;
+}
